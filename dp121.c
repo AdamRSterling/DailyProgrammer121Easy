@@ -12,7 +12,7 @@ int currencyMachine(int number)
 
 int main(int argc, char *argv[])
 {
-	int coinCount = currencyMachine(aoit(argv[1]));
+	int coinCount = currencyMachine(atoi(argv[1]));
 	printf("Number of coins: %d", cointCount);
 	return 0;
 }
