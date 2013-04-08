@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int currencyMachine(const int number)
+int currencyMachine(int number)
 {
 	if(number == 0)
 	{
